@@ -18,7 +18,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
           <p className="text-green-500">
             Welcome to my portfolio! I am a passionate software engineer with experience in...
-          </p><br/>
+          </p>
 
           <ul className="text-cyan-200 list-disc list-inside">
             <li>HTML, CSS (Tailwind CSS)</li>
@@ -32,30 +32,27 @@ export default function Home() {
 
         {/* Projects Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex justify-center">Projects</h2>
+          <h2 className="text-2xl font-bold mb-4">Projects</h2>
           {/* Display projects here */}
-          <p className="text-green-200">
-            <ul className="list-disc list-inside">
+            <ul className="text-green-200 list-disc list-inside">
               <li>Project image</li>
               <li>Project description</li>
               <li>Project link, Project source code</li>
             </ul>
-          </p>
         </section>
 
 
         {/* Resume Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex justify-center">Resume</h2>
+          <h2 className="text-2xl font-bold mb-4">Resume</h2>
           {/* Display resume here */}
-          <ul className="text-green-200 flex justify-center">Resume goes here
-          </ul>
+          <p className="text-green-200 flex justify-center">Resume goes here</p>
         </section>
 
 
         {/* Contact Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex justify-center">Contact</h2>
+          <h2 className="text-2xl font-bold mb-4">Contact</h2>
           {/* Display contact info here */}
             <ul className="text-green-200 list-disc list-inside">
               <li>link to all relevant socials</li>
