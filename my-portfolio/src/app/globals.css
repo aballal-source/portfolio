@@ -37,4 +37,5 @@ section {
 nav {
   position: sticky;
   top: 0;
+  z-index: 10; /* Adjusting the z-index so that nav is in the forefront, and other element's, specifically the dropdown arrow, do not overflow into the navbar*/
 }

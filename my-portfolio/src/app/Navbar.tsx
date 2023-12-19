@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
                 {/* Portfolio Title */}
                 <a href="#about-section">
                     <span className="text-white text-lg font-bold transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125">
-                        Ahmed&apos;s Portfolio
+                        Ahmed Ballal
                     </span>
                 </a>
 
