@@ -17,8 +17,9 @@ export default function Home() {
         {/* About Me Section */}
         <section id="about-section" className="mb-8">
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
-          <p className="text-green-500">
-          Welcome to my portfolio! I am a passionate software engineer with experience in...
+          <p className="text-green-500"> Hello there! Welcome to my Portfolio!
+          </p>
+          <p className="text-green-500"> My name is Ahmed Ballal and I am a passionate software engineer with experience in...
           </p>
           <ul className="text-cyan-200 list-disc list-inside">
             <li>HTML, CSS (Tailwind CSS)</li>

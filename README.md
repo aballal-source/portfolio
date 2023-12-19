@@ -8,3 +8,9 @@ BUILD:
 -Tailwind CSS
 -'src/' directory
 -App Router
+
+SETUP:
+npm /* install next.js, choose development style */
+cd /* root directory */
+npm run build /* making sure the build works */
+npm run dev
