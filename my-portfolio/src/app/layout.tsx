@@ -8,8 +8,8 @@ const silkscreen = Silkscreen({
  })
 
 export const metadata: Metadata = {
-  title: 'Ahmed Ballal - Software Engineering Portfolio',
-  description: 'Ahmed Ballal Portfolio',
+  title: 'Ahmed Ballal',
+  description: 'Personal Software Engineering Portfolio',
 }
 
 export default function RootLayout({
