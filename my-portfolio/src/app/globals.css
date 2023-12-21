@@ -76,7 +76,23 @@ nav {
     border-color: rgb(var(--background-end-rgb));
   }
 }
-  .skill[data-not-last="true"] {
-    animation: typing 2s steps(32) forwards;
-    border-right: none;
+
+.skill[data-not-last="true"] {
+  animation: typing 2s steps(32) forwards;
+  border-right: none;
+}
+
+.last-skill {
+  animation: typing-last .5s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes typing-last {
+  from {
+    width: 0;
+    opacity: 0;
   }
+  to {
+    width: 7ch; /* Adjust the width to stop at the end of the last skill */
+    opacity: 50;
+  }
+}

@@ -27,9 +27,9 @@ export default function Home() {
               <div className="skill-wrapper">
                 <div className="skill" data-not-last="true" style={{ animationDelay: `1s`}}>HTML, CSS (Tailwind CSS)</div>
                 <div className="skill" data-not-last="true" style={{ animationDelay: `3s`}}>JavaScript (React, Node.js, Next.js)</div>
-                <div className="skill" data-not-last="true" style={{ animationDelay: `5s`}}>Java</div>
+                <div className="skill" data-not-last="true" style={{ animationDelay: `5.5s`}}>Java</div>
                 <div className="skill" data-not-last="true" style={{ animationDelay: `6s`}}>C++</div>
-                <div className="skill" style={{ animationDelay: `7s`}}>Python</div>
+                <div className="skill last-skill" style={{ animationDelay: `6.5s`}}>Python</div>
               </div>
             </div>
 
