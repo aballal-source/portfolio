@@ -1,13 +1,5 @@
 import Navbar from "./Navbar"
 
-const skillsList = [
-  "HTML, CSS (Tailwind CSS)",
-  "JavaScript (React, Node.js, Next.js)",
-  "Java",
-  "C++",
-  "Python",
-];
-
 export default function Home() {
   return (
     <div>
