@@ -1,6 +1,50 @@
 import Navbar from "./Navbar"
+import ProjectSection from "./ProjectSection";
 
 export default function Home() {
+  const projects = [
+    {
+      title:"My Portfolio",
+      imgPath:"/ss1.png",
+      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+      demoLink:"#/",
+      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+    },
+    {
+      title:"My Portfolio",
+      imgPath:"/ss1.png",
+      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+      demoLink:"#/",
+      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+    },
+    {
+      title:"My Portfolio",
+      imgPath:"/ss1.png",
+      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+      demoLink:"#/",
+      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+    },
+    {
+      title:"My Portfolio",
+      imgPath:"/ss1.png",
+      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+      demoLink:"#/",
+      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+    },
+    {
+      title:"My Portfolio",
+      imgPath:"/ss1.png",
+      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+    },
+    {
+      title:"My Portfolio",
+      imgPath:"/ss1.png",
+      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+      demoLink:"#/",
+      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+    },
+  ];
+
   return (
     <div>
       <Navbar />
@@ -10,7 +54,7 @@ export default function Home() {
         {/* About Me Section */}
         <section id="about-section" className="mb-8">
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
-          <p className="text-green-500"> Hello there! My name is Ahmed Ballal and I am a passionate software engineer with experience in...</p>
+          <p className="text-green-400"> Hello there! My name is<span className="name"> Ahmed Ballal</span> and I am a passionate software engineer with experience in...</p>
           {/* Separator */}
           <div className="border-b mb-4"></div>
 
@@ -29,7 +73,7 @@ export default function Home() {
           <div className="border-b mb-4"></div>
 
           {/* Call to Action */}
-          <p className="text-green-500"> Check out my work!</p>
+          <p className="text-green-400"> Check out my work!</p>
           {/* Separator */}
           <div className="border-b mb-4"></div>
 
@@ -53,16 +97,11 @@ export default function Home() {
 
         {/* Projects Section */}
         <section id="projects-section" className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Projects</h2>
 
           {/* Display projects here */}
+          <ProjectSection projects={projects} />
 
-
-            {/* Separators */}
-          <div className="border-b mb-4"></div>
-          <div className="border-b mb-4"></div>
-
-          <p className="text-green-500"> Get in touch!</p>
+          <p className="text-green-400"> Get in touch!</p>
           {/* Separator */}
           <div className="border-b mb-4"></div>
 

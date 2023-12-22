@@ -27,7 +27,7 @@ body {
 }
 
 section {
-  height: 75vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,6 +86,20 @@ nav {
   animation: typing-last .5s forwards, blink .5s step-end infinite alternate;
 }
 
+.name {
+  animation: color-change 2s infinite;
+  transition: step-end;
+}
+
+@keyframes color-change {
+  0% {  }
+  50% { 
+    color: rgb(130, 226, 255); 
+  }
+  100% { color: rgb(101, 155, 255); }
+  
+}
+
 @keyframes typing-last {
   from {
     width: 0;
@@ -95,4 +109,10 @@ nav {
     width: 7ch; /* Adjust the width to stop at the end of the last skill */
     opacity: 50;
   }
+}
+
+.project-image {
+  height: 50%; /* Set the maximum width to 100% of its container */
+  width: auto;    /* Maintain aspect ratio */
+  display: block;   /* Remove any extra spacing around the image */
 }
