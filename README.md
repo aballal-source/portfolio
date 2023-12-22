@@ -1,5 +1,5 @@
 # portfolio
-Welcome to the repo of my personal portfolio website
+Repository for my personal portfolio website
 
 BUILD: 
 -Next.js 14.0.4
