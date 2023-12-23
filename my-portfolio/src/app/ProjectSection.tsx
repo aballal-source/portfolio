@@ -23,7 +23,7 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({ projects }) => {
         {projects.map((project, index) => (
           <div key={index} className="bg-stone-200 rounded-md p-4 shadow-md relative">
             <h2 className="text-green-600 text-lg font-semibold mb-2">{project.title}</h2>
-            <Image src={project.imgPath} alt={project.title} className="w-full h-40 object-cover mb-4" />
+            <Image src={project.imgPath} alt={project.title} className="w-full h-40 object-cover mb-4" width={500} height={300}/>
 
             <p className="text-gray-600 mb-4">{project.description}</p>
 
