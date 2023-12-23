@@ -6,40 +6,40 @@ export default function Home() {
   const projects = [
     {
       title:"My Portfolio",
-      imgPath:"/ss1.png",
+      imgPath:"/ss1.jpg",
       description:"Developed this portfolio website to showcase my skills. Utilized Next.js, TypeScript, Tailwind, and CSS.",
       demoLink:"#/",
       sourceCodeLink:"https://github.com/aballal-source/portfolio",
     },
     {
       title:"AI IMG Generator",
-      imgPath:"/auraframe.png",
+      imgPath:"/auraframe.jpg",
       description:"Utilized OpenAI's Chat Gpt-3.5-Turbo and DALL-E APIs to produce a thumbnail image based on a video title. Built with React.js, Deployed with netlify.",
       demoLink:"https://auraframe.netlify.app/",
       sourceCodeLink:"https://github.com/aballal-source/AI-Thumbnail-Generator",
     },
     {
       title:"Study Partner",
-      imgPath:"/sfsuSP.png",
+      imgPath:"/sfsuSP.jpg",
       description:"Encouraged students to conduct online study sessions and schedule study meetings. Designed with react-bootstrap, 100ms APIs, and deployed using vercel",
       demoLink:"https://sfsu-study-partner.vercel.app/#about",
       sourceCodeLink:"https://github.com/GurinderS120/sfsu-study-partner",
     },
     {
       title:"FraGrant",
-      imgPath:"/fragrant.png",
+      imgPath:"/fragrant.jpg",
       description:"Collaborated in a 6-member Agile Development team building an e-commerce web app for my software engineering class at SFSU. Utilized the MERN stack and deployed via AWS.",
       sourceCodeLink:"https://github.com/CSC-648-SFSU/csc-648-project-csc648-04-fa22-team03",
     },
     {
       title:"Sudo Store",
-      imgPath:"/sudo.png",
+      imgPath:"/sudo.jpg",
       description:"Collaborated in a 4-member team to build an online storefront for my web development class at SFSU. We built the skeleton with basic HTML, then incorporated CSS, JavaScript, and PHP.",
       sourceCodeLink:"https://github.com/jbeyer28/teamsudo",
     },
     {
       title:"Ninja Runner",
-      imgPath:"/ninja.png",
+      imgPath:"/ninja.jpg",
       description:"An 'endless' web-browser game I built for my web development class at SFSU. using HTML, CSS, and JavaScript",
     },
   ];
