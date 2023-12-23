@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import ProjectSection from "./ProjectSection";
+import Head from "next/head";
 
 export default function Home() {
   const projects = [
@@ -46,6 +47,12 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+
+      <Head>
+        <title>Ahmed Ballal</title>
+        <meta name="description" content="Ahmed Ballal Software Engineer Portfolio" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       {/* Main Content */}
       <main className="container mx-auto py-10 px-4">
