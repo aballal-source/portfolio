@@ -6,16 +6,16 @@ export default function Home() {
     {
       title:"My Portfolio",
       imgPath:"/ss1.png",
-      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+      description:"Developed this portfolio website to showcase my skills. Utilized Next.js, TypeScript, Tailwind, and CSS.",
       demoLink:"#/",
       sourceCodeLink:"https://github.com/aballal-source/portfolio",
     },
     {
-      title:"Project 2",
-      imgPath:"/ss1.png",
-      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
-      demoLink:"#/",
-      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+      title:"AI IMG Generator",
+      imgPath:"/auraframe.png",
+      description:"Utilized OpenAI's Chat Gpt-3.5-Turbo and DALL-E APIs to produce a thumbnail image based on a video title. Built with React.js, Deployed with netlify.",
+      demoLink:"https://auraframe.netlify.app/",
+      sourceCodeLink:"https://github.com/aballal-source/AI-Thumbnail-Generator",
     },
     {
       title:"Study Partner",
@@ -25,23 +25,21 @@ export default function Home() {
       sourceCodeLink:"https://github.com/GurinderS120/sfsu-study-partner",
     },
     {
-      title:"Project 4",
-      imgPath:"/ss1.png",
-      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
-      demoLink:"#/",
-      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+      title:"FraGrant",
+      imgPath:"/fragrant.png",
+      description:"Collaborated in a 6-member Agile Development team building an e-commerce web app for my software engineering class at SFSU. Utilized the MERN stack and deployed via AWS.",
+      sourceCodeLink:"https://github.com/CSC-648-SFSU/csc-648-project-csc648-04-fa22-team03",
     },
     {
-      title:"Project 5",
-      imgPath:"/ss1.png",
-      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
+      title:"Sudo Store",
+      imgPath:"/sudo.png",
+      description:"Collaborated in a 4-member team to build an online storefront for my web development class at SFSU. We built the skeleton with basic HTML, then incorporated CSS, JavaScript, and PHP.",
+      sourceCodeLink:"https://github.com/jbeyer28/teamsudo",
     },
     {
-      title:"Project 6",
-      imgPath:"/ss1.png",
-      description:"Developed this portfolio website to showcase my skills. Utilized React, Next.js, TypeScript, Tailwind, and CSS.",
-      demoLink:"#/",
-      sourceCodeLink:"https://github.com/aballal-source/portfolio",
+      title:"Ninja Runner",
+      imgPath:"/ninja.png",
+      description:"An 'endless' web-browser game I built for my web development class at SFSU. using HTML, CSS, and JavaScript",
     },
   ];
 
@@ -61,11 +59,11 @@ export default function Home() {
           {/* Skills List */}
             <div className="text-cyan-200 list-disc list-inside mb-4">
               <div className="skill-wrapper">
-                <div className="skill" data-not-last="true" style={{ animationDelay: `1s`}}>HTML, CSS (Tailwind CSS)</div>
-                <div className="skill" data-not-last="true" style={{ animationDelay: `3s`}}>JavaScript (React, Node.js, Next.js)</div>
-                <div className="skill" data-not-last="true" style={{ animationDelay: `5.5s`}}>Java</div>
-                <div className="skill" data-not-last="true" style={{ animationDelay: `6s`}}>C++</div>
-                <div className="skill last-skill" style={{ animationDelay: `6.5s`}}>Python</div>
+                <div className="skill" data-not-last="true" style={{ animationDelay: `1s`, fontSize: '1.5em'}}>HTML, CSS (Tailwind CSS)</div>
+                <div className="skill" data-not-last="true" style={{ animationDelay: `3s`, fontSize: '1.5em'}}>JavaScript (React, Node.js, Next.js)</div>
+                <div className="skill" data-not-last="true" style={{ animationDelay: `5.5s`, fontSize: '1.5em'}}>Java</div>
+                <div className="skill" data-not-last="true" style={{ animationDelay: `6s`, fontSize: '1.5em'}}>C++</div>
+                <div className="skill last-skill" style={{ animationDelay: `6.5s`, fontSize: '1.5em'}}>Python</div>
               </div>
             </div>
 
@@ -123,12 +121,31 @@ export default function Home() {
 
 
         {/* Contact Section */}
-        <section id="contact-section" className="mb-8">
+        <section id="contact-section" className="mb-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Contact</h2>
           {/* Display contact info here */}
-            <div className="text-green-200 list-none list-inside">
-              <li>resume available upon request</li>
-              <li>Send me an email or message me on LinkedIn</li>
+            <div>
+              <p className="mb-4 text-stone-400">resume available upon request</p>
+              <p className="text-green-200">Feel free to connect with me:</p>
+              
+              {/* Separator */}
+              <div className="mb-4"></div>
+
+              {/* Social Links */}
+              <div className="flex justify-center space-x-4 mb-4">
+                <a href="https://www.linkedin.com/in/aballal" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125"
+                >
+                  LinkedIn
+                </a>
+                <a href="mailto:mail@ahmedballal.com" className="text-white transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125"
+                >
+                  Email
+                </a>
+                <a href="https://github.com/aballal-source" className="text-white transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125"
+                >
+                  GitHub
+                </a>
+              </div>
             </div>
         </section>
       </main>

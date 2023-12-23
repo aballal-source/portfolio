@@ -20,7 +20,7 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({ projects }) => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="bg-stone-200 rounded-md p-4 shadow-md">
+          <div key={index} className="bg-stone-200 rounded-md p-4 shadow-md relative">
             <h2 className="text-green-600 text-lg font-semibold mb-2">{project.title}</h2>
             <img src={project.imgPath} alt={project.title} className="w-full h-40 object-cover mb-4" />
 
@@ -28,19 +28,19 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({ projects }) => {
 
             <div className="flex justify-between">
               {project.demoLink ? (
-                <a href={project.demoLink} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                <a href={project.demoLink} className="absolute bottom-2 right-2 left-2 text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Demo
               </a>
               ) : (
-                <span></span>
+                <span className="absolute bottom-2 text-red-400">Local</span>
               )}
               
               {project.sourceCodeLink ? (
-                <a href={project.sourceCodeLink} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                <a href={project.sourceCodeLink} className="absolute bottom-2 right-2 text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Source Code
               </a>
               ) : (
-                <span className="text-gray-400">Private Repository due to the project being a university assignment. No Source Code Available</span>
+                <span className="text-xs text-gray-400">Private Repository due to the project being a university assignment. No Source Code Available</span>
               )}
               
             </div>

@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto flex items-center justify-between">
                 {/* Portfolio Title */}
                 <a href="#about-section">
-                    <span className="text-white text-lg transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125">
+                    <span className="text-stone-400 text-lg transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125">
                         AhmedBallal.com
                     </span>
                 </a>
@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
                 {/* Navigation Links */}
                 <div className="flex space-x-8">
                     <a href="#about-section" className="text-white transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-cyan-200 hover:brightness-125">
-                        About Me
+                        About
                     </a>
                     <a href="#projects-section" className="text-white transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-cyan-200 hover:brightness-125">
                         Projects
