@@ -111,9 +111,3 @@ nav {
     opacity: 50;
   }
 }
-
-.project-image {
-  height: 50%; /* Set the maximum width to 100% of its container */
-  width: auto;    /* Maintain aspect ratio */
-  display: block;   /* Remove any extra spacing around the image */
-}
