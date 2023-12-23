@@ -20,10 +20,10 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({ projects }) => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="bg-white rounded-md p-4 shadow-md">
+          <div key={index} className="bg-stone-200 rounded-md p-4 shadow-md">
+            <h2 className="text-green-600 text-lg font-semibold mb-2">{project.title}</h2>
             <img src={project.imgPath} alt={project.title} className="w-full h-40 object-cover mb-4" />
 
-            <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
             <p className="text-gray-600 mb-4">{project.description}</p>
 
             <div className="flex justify-between">
