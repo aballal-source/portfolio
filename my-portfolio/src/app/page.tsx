@@ -41,6 +41,7 @@ export default function Home() {
       title:"Ninja Runner",
       imgPath:"/ninja.jpg",
       description:"An 'endless' web-browser game I built for my web development class at SFSU. using HTML, CSS, and JavaScript",
+      sourceCodeLink:"https://github.com/aballal-source/NinjaRunner/tree/main",
     },
   ];
 
@@ -105,6 +106,7 @@ export default function Home() {
 
           {/* Display projects here */}
           <ProjectSection projects={projects} />
+          <p className="mb-4 text-stone-400">Note: Projects labled 'Local' are production-ready school projects that have not been made public.</p>
 
           <p className="text-green-400"> Get in touch!</p>
           {/* Separator */}
