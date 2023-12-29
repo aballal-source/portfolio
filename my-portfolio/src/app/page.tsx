@@ -146,7 +146,7 @@ export default function Home() {
                 >
                   LinkedIn
                 </a>
-                <a href="mailto:mail@ahmedballal.com" className="text-white transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125"
+                <a href="mailto:dev@ahmedballal.com" className="text-white transition-all duration-300 ease-in-out hover:border-b hover:border-zinc-500 hover:text-green-400 hover:brightness-125"
                 >
                   Email
                 </a>

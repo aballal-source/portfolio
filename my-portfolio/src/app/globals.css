@@ -4,14 +4,14 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 112, 58, 058;
+  --background-start-rgb: 112, 58, 58;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 112, 58, 58;
     --background-end-rgb: 0, 0, 0;
   }
 }
@@ -36,6 +36,7 @@ section {
 }
 
 nav {
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 10; /* Adjusting the z-index so that nav is in the forefront, and other element's, specifically the dropdown arrow, do not overflow into the navbar*/
