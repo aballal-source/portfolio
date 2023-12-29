@@ -18,13 +18,13 @@
 
 body {
   color: rgb(var(--foreground-rgb)); /* sets the text color of the body to the RGB value specified by '--foreground-rgb' */
-  background: linear-gradient(
+  background-image: linear-gradient(
       to top,
-      transparent,
+      rgb(var(--background-start-rgb)),
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
-    background-color: rgb(112, 58, 58);
+    /* rgb(var(--background-start-rgb)); */
+    /* background-color: rgb(112, 58, 58); */
 }
 
 section {
