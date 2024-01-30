@@ -106,7 +106,7 @@ export default function Home() {
 
           {/* Display projects here */}
           <ProjectSection projects={projects} />
-          <p className="mb-4 text-stone-400">Note: Projects labled &apos;Local&apos; are production-ready school projects that have not been made public.</p>
+          <p className="mb-4 text-stone-400">Note: Projects labled &apos;Local&apos; are production-ready school projects that have not been made public. You can download the source code via the GitHub link to run a project locally.</p>
 
           <p className="text-green-400"> Get in touch!</p>
           {/* Separator */}
