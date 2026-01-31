@@ -2,7 +2,6 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import ProjectSection from "./ProjectSection";
 import Footer from "./Footer";
-import LavaLamp from "./LavaLamp";
 
 
 export default function Home() {
