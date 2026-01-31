@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --bg-start: 0, 0, 0;
+  --bg-end: 15, 15, 15;
+}
+
+body {
+  color: white;
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--bg-start)),
+      rgb(var(--bg-end))
+    );
+}
+
+.font-display {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.05em;
+}
