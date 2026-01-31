@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.0",
     "lucide-react": "^0.563.0",
@@ -20,12 +19,6 @@
     "react-scroll": "^1.9.0",
     "tailwind-merge": "^2.2.0",
     "web-vitals": "^4.0.0"
-=======
-    "next": "14.0.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scroll": "^1.9.0"
->>>>>>> ad1cb8aa78a3b698e738f7a1c9ac43f4fd7a3c5a
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -34,13 +27,8 @@
     "@types/react-scroll": "^1.8.10",
     "@types/tailwindcss": "^3.1.0",
     "autoprefixer": "^10.0.1",
-<<<<<<< HEAD
     "eslint": "^9",
     "eslint-config-next": "^15.5.10",
-=======
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
->>>>>>> ad1cb8aa78a3b698e738f7a1c9ac43f4fd7a3c5a
     "postcss": "^8",
     "tailwindcss": "^3.3.6",
     "typescript": "^5"
