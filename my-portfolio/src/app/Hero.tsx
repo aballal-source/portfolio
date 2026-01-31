@@ -63,7 +63,7 @@ export default function Hero() {
           Software Engineer
         </p>
         <p className="text-sm text-stone-500 lowercase mt-4 tracking-wide cursor-default">
-          building things on the web
+          shipping calm, usable software
         </p>
       </div>
     </section>

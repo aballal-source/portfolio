@@ -7,19 +7,36 @@ import Footer from "./Footer";
 export default function Home() {
   const projects = [
     {
-      title: "Personal Portfolio",
-      imgPath: "/ss1.jpg",
+      title: "FUTURECORPDC",
+      imgPath: "/futurecorp.jpg",
       description:
-        "Designed and built a responsive personal website focused on clarity, UX, and performance using Next.js and Tailwind CSS.",
-      demoLink: "https://ahmedballal.com",
-      sourceCodeLink: "https://github.com/aballal-source/portfolio",
+        "Marketing website for an emerging design-build studio. Built with WordPress. Custom theme development with JavaScript and CSS to meet client branding needs.",
+      demoLink: "https://futurecorpdc.com/",
+      category: "Marketing Site · Client Work",
     },
     {
-      title: "AI Thumbnail Generator",
-      category: "Web Experiment",
+      title: "GoodVibe Outdoor Living",
+      imgPath: "/goodvibe.jpg",
+      description:
+        "Quick-commerce storefront built on Squarespace with custom layout, product flow, and checkout UX optimized for speed.",
+      demoLink: "https://futurecorpdc.com/",
+      category: "E-Commerce · Client Work",
+    },
+    {
+      title: "BarberJon's",
+      category: "Small Business · Client Work",
+      imgPath: "/BarberJons.jpg",
+      description:
+        "Clean, responsive website for a local barbershop. Booking and inventory management system integrated via SQUIRE API, UI built with Next.js and TypeScript, with client handoff via Squarespace.",
+      demoLink: "https://barberjons.com/",
+      sourceCodeLink: "https://github.com/aballal-source/worldfamous",
+    },
+    {
+      title: "AuraFrame",
+      category: "Web App · AI",
       imgPath: "/auraframe.jpg",
       description:
-        "Built a frontend interface that generates custom thumbnail images from text input using OpenAI APIs, with a focus on usability and fast feedback.",
+        "AI-powered web app that generates custom thumbnails from text prompts using OpenAI APIs, designed with a fast, feedback-driven UX.",
       demoLink: "https://auraframe.netlify.app/",
       sourceCodeLink: "https://github.com/aballal-source/AI-Thumbnail-Generator",
     },

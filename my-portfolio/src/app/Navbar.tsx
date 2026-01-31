@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <a href="#about">
           <span className="font-semibold tracking-wide text-stone-200 hover:text-green-400 transition">
-            Ahmed Ballal
+            aballal<span className="text-green-400">.</span>dev
           </span>
         </a>
 
