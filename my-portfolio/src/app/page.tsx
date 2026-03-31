@@ -19,7 +19,7 @@ export default function Home() {
       imgPath: "/goodvibe.jpg",
       description:
         "Quick-commerce storefront built on Squarespace with custom layout, product flow, and checkout UX optimized for speed.",
-      demoLink: "https://futurecorpdc.com/",
+      demoLink: "https://www.goodvibeoutdoorliving.com/",
       category: "E-Commerce · Client Work",
     },
     {
