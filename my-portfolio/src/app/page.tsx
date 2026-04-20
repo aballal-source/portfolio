@@ -8,9 +8,9 @@ export default function Home() {
   const projects = [
     {
       title: "BugHunt",
-      imgPath: "/bughunt.jpg",
+      imgPath: "/bughunt.png",
       description:
-        "BugHunt is a full-stack web application where gamers can submit bug reports for their favorite games, upvote issues other players have found, and track whether developers have patched them. It features a public bug reporting dashboard, an admin triage panel, and an analytics dashboard (all reflecting real-time data from a PostgreSQL database).<br /><br />Built from a QA engineer's perspective: I wrote a formal test plan, executed 30 manual test cases, logged 2 defects in Linear with full defect lifecycle documentation, and built an automated regression suite using Playwright and pytest that runs 10 critical user flows in under 10 seconds.",
+        "BugHunt is a full-stack web application where gamers can submit bug reports for their favorite games, upvote issues other players have found, and track whether developers have patched them. It features a public bug reporting dashboard, an admin triage panel, and an analytics dashboard (all reflecting real-time data from a PostgreSQL database). Built from a QA engineer's perspective: I wrote a formal test plan, executed 30 manual test cases, logged 2 defects in Linear with full defect lifecycle documentation, and built an automated regression suite using Playwright and pytest that runs 10 critical user flows in under 10 seconds.",
       sourceCodeLink: "https://github.com/aballal-source/bughunt",
       category: "Web App · QA",
     },
@@ -27,7 +27,7 @@ export default function Home() {
       imgPath: "/goodvibe.png",
       description:
         "Quick-commerce storefront built on Squarespace with custom layout, product flow, and checkout UX optimized for speed.",
-      demoLink: "https://www.goodvibeoutdoorliving.com/",
+      demoLink: "https://futurecorpdc.com/",
       category: "E-Commerce · Client Work",
     },
     {
