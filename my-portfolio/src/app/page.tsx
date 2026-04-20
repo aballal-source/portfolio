@@ -7,6 +7,14 @@ import Footer from "./Footer";
 export default function Home() {
   const projects = [
     {
+      title: "BugHunt",
+      imgPath: "/bughunt.jpg",
+      description:
+        "BugHunt is a full-stack web application where gamers can submit bug reports for their favorite games, upvote issues other players have found, and track whether developers have patched them. It features a public bug reporting dashboard, an admin triage panel, and an analytics dashboard (all reflecting real-time data from a PostgreSQL database).<br /><br />Built from a QA engineer's perspective: I wrote a formal test plan, executed 30 manual test cases, logged 2 defects in Linear with full defect lifecycle documentation, and built an automated regression suite using Playwright and pytest that runs 10 critical user flows in under 10 seconds.",
+      sourceCodeLink: "https://github.com/aballal-source/bughunt",
+      category: "Web App · QA",
+    },
+    {
       title: "FUTURECORPDC",
       imgPath: "/futurecorp.jpg",
       description:
@@ -16,7 +24,7 @@ export default function Home() {
     },
     {
       title: "GoodVibe Outdoor Living",
-      imgPath: "/goodvibe.jpg",
+      imgPath: "/goodvibe.png",
       description:
         "Quick-commerce storefront built on Squarespace with custom layout, product flow, and checkout UX optimized for speed.",
       demoLink: "https://www.goodvibeoutdoorliving.com/",
@@ -25,7 +33,7 @@ export default function Home() {
     {
       title: "BarberJon's",
       category: "Small Business · Client Work",
-      imgPath: "/BarberJons.jpg",
+      imgPath: "/barberjons.png",
       description:
         "Clean, responsive website for a local barbershop. Booking and inventory management system integrated via SQUIRE API, UI built with Next.js and TypeScript, with client handoff via Squarespace.",
       demoLink: "https://barberjons.com/",
